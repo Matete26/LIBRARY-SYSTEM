@@ -15,7 +15,9 @@ app.use('/api/books', require('./routes/bookRoutes'));
 app.use('/api/students', require('./routes/studentRoutes'));
 app.use('/api/attendants', require('./routes/attendantRoutes'));
 
-app.listen(3000, () => {
-    console.log('Server is running properly on port 3000');
+app.listen(process.env.PORT, () => {
+    console.log(`Server running on port ${process.env.PORT}`);
 });
+
+
 

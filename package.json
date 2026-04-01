@@ -1,8 +1,9 @@
 {
    "name": "library-system",
    "version": "1.0.0",
+   "type": "commonjs",
    "description": "TS Academy Phoniex Cohort Assigment",
-   "main": "index.js",
+   "main": "app.js",
    "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "dev": "nodemon app.js"
@@ -10,7 +11,7 @@
    "keywords": [],
    "author": "",
    "license": "ISC",
-   "type": "commonjs",
+   
    "dependencies": {
       "cors": "^2.8.6",
       "dotenv": "^16.0.3",
