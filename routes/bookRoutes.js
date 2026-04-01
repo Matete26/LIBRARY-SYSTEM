@@ -11,7 +11,6 @@ router.get('/', getBooks);
 router.get('/:id', validateObjectId, getBook);
 router.put('/:id', validateObjectId, updateBook);
 router.delete('/:id', validateObjectId, deleteBook);
-
 router.post('/:id/borrow', validateObjectId, borrowBook);
 router.post('/:id/return', validateObjectId, returnBook);
 
